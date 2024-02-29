@@ -1,4 +1,4 @@
-./env/bin/python -m unittest tests.test_useless --verbose
+python3 -m unittest tests.test_useless --verbose
 
 if [ $? -ne 0 ]; then
 cat << "EOF"
